@@ -5,5 +5,6 @@ class CoreApp {
 
   void initialize() {
     Fimber.plantTree(DebugTree(useColors: true));
+    Fimber.d("Application initialized");
   }
 }
