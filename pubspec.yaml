@@ -13,11 +13,17 @@ dependencies:
     sdk: flutter
   flutter_fimber:
     path: ../flutter_nslog/flutter_fimber
+  flutter_riverpod: ^2.4.10
+  riverpod_annotation: ^2.3.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints:
+  build_runner:
+  custom_lint:
+  riverpod_generator: '^2.3.11'
+  riverpod_lint: '^2.3.9'
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
